@@ -109,8 +109,9 @@ h3{font:600 1.2rem/1.3 var(--display);margin:0 0 10px}
 .contact-main a{color:var(--blanco);text-decoration-color:var(--turquesa);text-underline-offset:6px}
 .contact-wa{margin:0 0 24px;color:var(--gris)}
 .contact-wa a{color:var(--blanco);font-weight:600;text-underline-offset:4px}
-.social{margin:22px 0 0;color:var(--gris);display:flex;flex-wrap:wrap;gap:6px 20px}
-.social a{color:var(--blanco);font-weight:600;text-underline-offset:4px}
+.social{list-style:none;margin:26px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:12px}
+.social a{display:flex;align-items:center;justify-content:center;width:46px;height:46px;border-radius:50%;border:1.5px solid var(--linea);color:var(--blanco);transition:border-color .15s,color .15s,background .15s}
+.social a:hover{border-color:var(--turquesa);color:var(--turquesa)}
 .status{min-height:1.6em;margin:14px 0 0;color:var(--turquesa)}
 
 .site-footer{padding:28px 0;color:var(--gris);font-size:.95rem}
