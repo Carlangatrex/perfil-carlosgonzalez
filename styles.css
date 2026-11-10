@@ -107,6 +107,10 @@ h3{font:600 1.2rem/1.3 var(--display);margin:0 0 10px}
 /* Contact */
 .contact-main{margin:0 0 24px;font:600 clamp(1.3rem,3.2vw,2rem) var(--display);overflow-wrap:anywhere}
 .contact-main a{color:var(--blanco);text-decoration-color:var(--turquesa);text-underline-offset:6px}
+.contact-wa{margin:0 0 24px;color:var(--gris)}
+.contact-wa a{color:var(--blanco);font-weight:600;text-underline-offset:4px}
+.social{margin:22px 0 0;color:var(--gris);display:flex;flex-wrap:wrap;gap:6px 20px}
+.social a{color:var(--blanco);font-weight:600;text-underline-offset:4px}
 .status{min-height:1.6em;margin:14px 0 0;color:var(--turquesa)}
 
 .site-footer{padding:28px 0;color:var(--gris);font-size:.95rem}
